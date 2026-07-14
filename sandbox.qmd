@@ -1,0 +1,167 @@
+---
+title: "Talk Data to Me"
+subtitle: "Supporting English Language Learners in Statistics and Data Science"
+author:
+  - name: <u>Liza Bolton</u>
+    affiliations:
+      - ref: uoa
+  - name: Nathalie Moon
+    affiliations:
+      - ref: uoft
+  - name: Samantha-Jo Caetano
+    affiliations:
+      - ref: uoft
+  - name: J. Sparks
+    affiliations:
+      - ref: uoguelph
+  - name: Quin Xie
+    affiliations:
+      - ref: uoft
+  - name: Ping Huang
+    affiliations:
+      - ref: uoa
+  - name: Christy Sun
+    affiliations:
+      - ref: uoa
+  - name: Jingdi Sun
+    affiliations:
+      - ref: uoft
+affiliations:
+  - id: uoa
+    name: "Waipapa Taumata Rau University of Auckland"
+    city: Auckland
+    country: Aotearoa New Zealand
+  - id: uoft
+    name: "University of Toronto"
+    city: Toronto
+    country: Canada
+  - id: uoguelph
+    name: "University of Guelph"
+    city: Guelph
+    country: Canada
+format:
+  revealjs:
+    theme: default
+    css: custom.css
+    slide-number: c/t
+    hash-type: number
+    controls: false
+    clickable-controls: false
+    navigation-mode: linear
+    progress: true
+    history: false
+    footer: "12th International Conference on Teaching Statistics (ICOTS 12) | Brisbane, Australia"
+    include-after-body: header.html
+bibliography: references.bib
+link-citations: true
+---
+
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+### Warm Pacific greetings
+
+<span class="tooltip">Talofa lava<span class="tooltiptext">Samoan</span></span>, <span class="tooltip">Malo e lelei<span class="tooltiptext">Tongan</span></span>, <span class="tooltip">Kia orana<span class="tooltiptext">Cook Islands Māori</span></span>, <span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, <span class="tooltip">Mālo ni<span class="tooltiptext">Tokelauan</span></span>, <span class="tooltip">Ni sa bula<span class="tooltiptext">Fijian</span></span>, <span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, <span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>. 
+:::
+
+::: {.column width="40%"}
+<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="width: 90%;" class="presentation-image">
+
+::: {.gallery-plaque}
+::: {.artist}
+Unknown
+:::
+
+::: {.artwork-title}
+Greetings from New Zealand
+:::
+
+::: {.meta}
+1900-1910, New Zealand. Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
+:::
+:::
+
+:::
+
+::::
+
+---
+
+## Acknowledgement of country
+
+We acknowledge the **Jagera** and **Turrbal** peoples as the Traditional Custodians of **Meanjin** (Brisbane), the lands and waterways where we gather, learn, and share knowledge during ICOTS 12.
+
+We pay our respects to their Elders past, present, and emerging, recognizing their enduring and continuous connection to land, water, and community.
+
+---
+
+## Tangata whenua & land acknowledgement 
+
+The teaching and research that informs this presentation were conducted on the traditional lands of
+**Māori** under te Tiriti o Waitangi ([Waipapa Taumata Rau University of Auckland](https://www.auckland.ac.nz/en.html)) and of the
+**Anishinaabe**, the **Haudenosaunee** and the **Mississaugas of the Credit** under the Dish With One Spoon
+Treaty and, more recently, Treaty 13 between the **Mississaugas** and the British Crown ([University of
+Toronto](https://www.utoronto.ca/)). Additional teaching and learning experiences at Southwest University, China, also informed this work.
+
+---
+
+## Positionality statement
+
+English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don’t.
+
+Language is not ‘just’ a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
+
+---
+
+## Interactive Elements & References
+
+You can hover over key terms to see inline extra information or full citations.
+
+* Here is an example of an <span class="tooltip">extra detail popup<span class="tooltiptext">This is supplementary information or a hidden note that appears seamlessly on hover!</span></span> built directly into the slide text.
+* We can also reference key literature dynamically, like this foundational text [@wickham2016].
+
+---
+
+##
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+### With gratitude
+
+We would like to acknowledge the many **students**, **teaching assistants** and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners. 
+
+Thank you also to our **ICOTS 12 conference proceedings reviewers**, your thoughtful comments helped us improve this presentation and accompanying paper.
+
+:::
+
+::: {.column width="40%"}
+<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt="" style="width: 90%;" class="presentation-image">
+
+::: {.gallery-plaque}
+::: {.artist}
+
+:::
+
+::: {.artwork-title}
+
+:::
+
+::: {.meta}
+
+:::
+:::
+
+:::
+
+::::
+
+---
+
+## References
+
+::: {#refs}
+:::

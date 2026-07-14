@@ -1,190 +1,171 @@
 ---
-title: "Talk data to me?"
+title: "Talk Data to Me"
+subtitle: "Supporting English Language Learners in Statistics and Data Science"
+author:
+  - name: <u>Liza Bolton</u>
+    affiliations:
+      - ref: uoa
+  - name: Nathalie Moon
+    affiliations:
+      - ref: uoft
+  - name: Samantha-Jo Caetano
+    affiliations:
+      - ref: uoft
+  - name: J. Sparks
+    affiliations:
+      - ref: uoguelph
+  - name: Quin Xie
+    affiliations:
+      - ref: uoft
+  - name: Ping Huang
+    affiliations:
+      - ref: uoa
+  - name: Christy Sun
+    affiliations:
+      - ref: uoa
+  - name: Jingdi Sun
+    affiliations:
+      - ref: uoft
+affiliations:
+  - id: uoa
+    name: "Waipapa Taumata Rau University of Auckland"
+    city: Auckland
+    country: Aotearoa New Zealand
+  - id: uoft
+    name: "University of Toronto"
+    city: Toronto
+    country: Canada
+  - id: uoguelph
+    name: "University of Guelph"
+    city: Guelph
+    country: Canada
 format:
   revealjs:
-    theme: [default, theme.scss]
-    width: 1600 # Widescreen width
-    height: 900 # Widescreen height (16:9 aspect ratio)
-    slide-number: true
-    show-slide-number: all
-    incremental: true # Reveals bullet points one by one
-    #chalkboard: true # Enables a virtual chalkboard
-    #footer: "Waipapa Taumata Rau | University of Auckland"
-title-slide-attributes: 
-    data-background-image: "title.gif"
-    data-background-position: top
-    data-background-size: contain
-    data-background-opacity: "1"
+    theme: default
+    css: custom.css
+    slide-number: c/t
+    hash-type: number
+    controls: false
+    clickable-controls: false
+    navigation-mode: linear
+    progress: true
+    history: false
+    footer: "12th International Conference on Teaching Statistics (ICOTS 12) | Brisbane, Australia"
+    include-after-body: header.html
+bibliography: references.bib
+link-citations: true
 ---
 
-## Get these slides 📱
 
-```{r, echo = F, fig.align='center'}
-plot(qrcode::qr_code("https://lizabolton.github.io/2025-09-11_ELL-dept-symposium/#/title-slide"))
-```
 
-🔗 You can also access these through: [link.lizabolton.com](https://link.lizabolton.com/) 
-
-For accessibility, there is alt text available for some images at the end.
-
----
-
-::: columns
-
-::: {.column width="40%"}
-![Art credit: FanaticB on Redbubble, song lyric from "Tribute" by Tenacious D](img/tribute.png)
-:::
+:::: {.columns}
 
 ::: {.column width="60%"}
-**Goal**: *Explore how support for ELL students can be integrated at various scales — from small modifications to teaching practices to large changes in assessment and design. Opportunities will be illustrated across junior and senior undergraduate statistics and data science courses in Canada, Aotearoa New Zealand and China.*
+### Warm Pacific greetings
 
-**Outputs**: ICOTS presentation in Brisbane next year + peer reviewed conference paper (due later this year); NZSA(?); + RA led work (TBD)
+<span class="tooltip">Talofa lava<span class="tooltiptext">Samoan</span></span>, <span class="tooltip">Malo e lelei<span class="tooltiptext">Tongan</span></span>, <span class="tooltip">Kia orana<span class="tooltiptext">Cook Islands Māori</span></span>, <span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, <span class="tooltip">Mālo ni<span class="tooltiptext">Tokelauan</span></span>, <span class="tooltip">Ni sa bula<span class="tooltiptext">Fijian</span></span>, <span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, <span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>. 
+:::
 
-So for now, this in an *early* invitation to discuss challenges and opportunities you have faced and would like to share or seek support in.
+::: {.column width="40%"}
+<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="width: 90%;" class="presentation-image">
+
+::: {.gallery-plaque}
+::: {.artist}
+Unknown
+:::
+
+::: {.artwork-title}
+Greetings from New Zealand
+:::
+
+::: {.meta}
+1900-1910, New Zealand. Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
+:::
 :::
 
 :::
+
+::::
+
+---
+
+## Acknowledgement of country
+
+We acknowledge the **Jagera** and **Turrbal** peoples as the Traditional Custodians of **Meanjin** (Brisbane), the lands and waterways where we gather, learn, and share knowledge during ICOTS 12.
+
+We pay our respects to their Elders past, present, and emerging, recognizing their enduring and continuous connection to land, water, and community.
+
+---
+
+## Tangata whenua & land acknowledgement 
+
+The teaching and research that informs this presentation were conducted on the traditional lands of
+**Māori** under te Tiriti o Waitangi ([Waipapa Taumata Rau University of Auckland](https://www.auckland.ac.nz/en.html)) and of the
+**Anishinaabe**, the **Haudenosaunee** and the **Mississaugas of the Credit** under the Dish With One Spoon
+Treaty and, more recently, Treaty 13 between the **Mississaugas** and the British Crown ([University of
+Toronto](https://www.utoronto.ca/)). Additional teaching and learning experiences at Southwest University, China, also informed this work.
+
+---
+
+
+
+---
 
 ## Positionality statement
 
-::: columns
+English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don’t.
 
-::: {.column width="40%"}
-![Original photo credit: Heidi Martin Photography](img/liza8bit.png){width=100%}
-:::
+Language is not ‘just’ a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
 
-::: {.column width="60%"}
-Bonjour, kia ora, 你好 (안녕, こんにちは)
+---
 
-<br>
-English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don't.
+## Interactive Elements & References
 
-<br>
-Language is not 'just' a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
-:::
+You can hover over key terms to see inline extra information or full citations.
 
-:::
+* Here is an example of an <span class="tooltip">extra detail popup<span class="tooltiptext">This is supplementary information or a hidden note that appears seamlessly on hover!</span></span> built directly into the slide text.
+* We can also reference key literature dynamically, like this foundational text [@wickham2016].
 
+---
 
-## ELLs are not a monolith
+##
 
-::: columns
-
-::: {.column width="40%"}
-![8-bit Tower of Babel?](img/babel.png)
-
-:::
+:::: {.columns}
 
 ::: {.column width="60%"}
 
-👩🏻‍🎓 ELL = English Language Learner. You may be familiar with EAL (English as an Additional Language) or ESOL (English for Speakers of Other Languages).
+### With gratitude
 
-🈶 The majority of the ELL students I have taught have Chinese backgrounds (University of Toronto, University of Auckland, teaching at Southwest University 西南大学).
+We would like to acknowledge the many **students**, **teaching assistants** and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners. 
 
-💰 This project is funded out of the money related to teaching into our Transnational Education Agreement programme with Southwest University 西南大学.
-
-:::
-
-::: 
-
-
-## ELL support at UofT vs WTR
-
-![](img/map.png){fig-align="center"}
-
-::: {.notes}
-'Mega' Faculty of Arts & Science
-:::
-
----
-
-{{< pdf pdf/jingdi.pdf width=100% height=900 >}}
-
----
-
-{{< pdf pdf/christy.pdf width=100% height=900 >}}
-
----
-
-{{< pdf pdf/lab_w11_task.html width=100% height=900 >}}
-
----
-
-{{< pdf pdf/ping.pdf width=100% height=900 >}}
-
-
-# Some other ideas
-
-## 🤔 Think 👯 Pair 🗣️ Share
-
-- In this classroom strategy, you present students with a task or question and then they work through three phases: thinking, pairing and finally sharing. 
-
-- The sharing can be out loud in the class, but I really like to pair the speaking ‘pairing’ phase with an anonymous written ‘sharing’ phase using an app like Anna’s Stats App to reduce embarrassment. 
-
-::: columns
-
-::: {.column width="50%"}
+Thank you also to our **ICOTS 12 conference proceedings reviewers**, your thoughtful comments helped us improve this presentation and accompanying paper.
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
+<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt="" style="width: 90%;" class="presentation-image">
+
+::: {.gallery-plaque}
+::: {.artist}
+
+:::
+
+::: {.artwork-title}
+
+:::
+
+::: {.meta}
+
+:::
 :::
 
 :::
 
-## Supporting spoken instructions with written/visual prompts
-
-- This is an example of one (of the many!) reasons doing peer observations of teaching is helpful. If I found I was missing or not fully hearing instructions during an activity, it seems reasonable to expect students will too. 
-
-- Not only does this support ELL students, but it can also support students with auditory processing issues or executive function/focus challenges. *Multi-support win!* 🏅 
-
-- ⏎🔥 Backfire: teaching at SWU, this meant students just put the questions in an LLM chat bot and submitted the answer from DeepSeek 😭.
-
-## Creating glossaries/cheat sheets as an assessment task
-
-- In recent years, it has been more common to hear student feedback at class rep meetings about wanting teacher provided glossaries and summary sheets.
-- Perhaps many of our students haven't learned how to learn.
-- In this strategy, students are tasked with creating the desired outputs, and provided appropriate support, as part of an assessment.
-- This strategy explicitly incentivises learning practices that also support language acquisition and academic success.
+::::
 
 ---
 
-### STATS 330 example
+## References
 
-{{< pdf pdf/STATS330_assignment-3_task.html width=100% height=900 >}}
-
----
-
-### STA303 example (University of Toronto)
-
-[Direct link](https://sta303-bolton.github.io/sta303-w22-courseguide/knowledge-basket-other.html#linear-mixed-models-study-guide)
-
-## References {visibility="uncounted"}
-
-Please see each RA's slide for their specific references.
-
-### Images
-Unless otherwise stated, all images were created with Gemini 2.5.
-
-*This Is Not The Greatest Song In The World This Is Just A Tribute Kids T-Shirt*. [Image]. Designed and sold by FanaticB. https://www.redbubble.com/i/kids-t-shirt/This-Is-Not-The-Greatest-Song-In-The-World-This-Is-Just-A-Tribute-by-FanaticB/164147311.MZ153
-
-# Alt text {visibility="uncounted"}
-
-## Title page {visibility="uncounted"}
-An 8-bit style presentation slide with the title "Talk data to me?". Two 8-bit characters, one with black hair and a red shirt on the left, and another with brown hair and a purple shirt on the right, stand on either side of a dark blue and light blue 8-bit wave design. The wave swaps direction between the two in a simple animation, as their mouths open and close. Below the wave, the text reads "Supporting English Language Learners in Statistics and Data Science" followed by a list of names under "Liza Bolton, Ping Huang, Christy Sun, Jingdi Sun with collaborators at the University of Toronto: Nathalie Moon, Samantha-Jo Caetano, J. Sparks, Quin Xie".
-
-## Slide 3 {visibility="uncounted"}
-
-A graphic featuring an acoustic guitar surrounded by red roses and black decorative swirls. The text at the top reads "THIS IS NOT THE GREATEST SONG IN THE WORLD." Below the guitar, the text continues "THIS IS JUST A TRIBUTE." The overall style is illustrative with a vintage feel, and the phrase "FanaticB" is in small text at the bottom right.
-
-## Positionality statement {visibility="uncounted"}
-
-An 8-bit pixel art character with brown wavy hair and a light blue striped shirt sits in a chair, holding a white paper. Behind them is a bookshelf with colourful books and a Halloween pumpkin bucket. The character has an open mouth as if speaking.
-
-## ELLs are not a monolith {visibility="uncounted"}
-
-An 8-bit image of a spiralling tower with many levels, aiming to represent the Tower of Babel.
-
-## ELL support at UofT vs WTR {visibility="uncounted"}
-
-An 8-bit pixel image of a map of the world.
+::: {#refs}
+:::

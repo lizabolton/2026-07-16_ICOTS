@@ -1,0 +1,168 @@
+/* ==========================================================================
+   Typography & Auditorium Visibility
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Egenolff&family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
+
+.reveal {
+  font-family: 'EB Garamond', 'Instrument Serif', Georgia, serif;
+  font-size: 38px; /* Extra large for large auditoriums */
+  color: #2b2b2b;
+  background-color: #faf6ee; /* Soft, paper-like warm background */
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: 'Instrument Serif', 'EB Garamond', serif;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-transform: none;
+  word-wrap: break-word;
+  padding-top: 0.3em;
+}
+
+.reveal h2 {
+  font-size: 1.7em;
+  /* border-bottom: 2px solid #d4c5b3; /* Painterly divider line */
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  /* border-bottom: 2px solid #d4c5b3; /* Painterly divider line */
+  padding-bottom: 10px;
+}
+
+/* ==========================================================================
+   Footer & Header Progress Customization
+   ========================================================================== */
+
+.reveal .footer {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.55em !important;
+  color: #666056 !important;
+  opacity: 0.8;
+}
+
+.reveal .slide-number {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.5em !important;
+  color: #666056 !important;
+  background-color: transparent !important;
+}
+
+/* Customizing the top progress bar color */
+.reveal .progress {
+  height: 6px !important;
+  color: #8c2d19; /* A deep, rich terracotta red */
+}
+
+/* ==========================================================================
+   Hover Tooltip / Source Reference Popups
+   ========================================================================== */
+
+/* The tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dashed #1A433A; /* Visual cue for hover */
+  color: #1A433A;
+  cursor: help;
+}
+
+/* Tooltip text box (hidden by default) */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #332f29;
+  color: #f7f4eb;
+  text-align: left;
+  border-radius: 6px;
+  padding: 12px;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%; /* Position above the text */
+  left: 50%;
+  margin-left: -175px; /* Center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.65em; /* Scale down relative to huge slide text */
+  line-height: 1.4;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Show the tooltip on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Style for large auditorium images */
+.reveal .presentation-image {
+  max-width: 100%;
+  padding: 20px -20px;
+  max-height: 500px; /* Keeps it within the slide bounds safely */
+  object-fit: contain;
+  border-radius: 4px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.reveal .slide-menu-button .fa-bars::before {
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="%231A433A"/></svg>') !important;
+}
+
+.quarto-title-authors {
+  font-size: 0.5em !important;
+  display: flex;
+  flex-wrap: wrap;        /* Allows authors to flow to the next line */
+  justify-content: center;
+  max-width: 180%;         /* Restricts the width so they are forced to break into two rows */
+  margin: 0 auto;
+  gap: 1.5em;             /* Horizontal space between names */
+}
+
+
+.gallery-plaque {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 5px 5px;
+  border-radius: 2px;
+  font-family: 'EB Garamond', 'Instrument Serif', serif;
+
+  /* Plaque dimensions and placement spacing */
+  max-width: 450px;
+  margin: 5px auto;
+  border-left: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+
+  /* Gallery wall drop shadow */
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.05),   /* Soft ambient shadow close to the edge */
+    0 10px 20px rgba(0, 0, 0, 0.08), /* Deeper shadow mimicking overhead gallery lighting */
+    0 4px 6px rgba(0, 0, 0, 0.05);   /* Extra depth layer */
+
+  /* Keeps layout clean if you put headers inside */
+  box-sizing: border-box;
+}
+
+/* Optional helper styles inside the plaque to match gallery standards */
+.gallery-plaque .artist {
+  font-weight: 100;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.gallery-plaque .artwork-title {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.gallery-plaque .meta {
+  font-size: 12px;
+  color: #666666;
+  line-height: 1.4;
+}
