@@ -1,0 +1,109 @@
+/*-- scss:defaults --*/
+
+/* template from mine cetinkaya https://github.com/mine-cetinkaya-rundel/tidyperspective/blob/main/talks/theme.scss */
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap';
+
+$font-family-sans-serif: "Lato", sans-serif;
+$presentation-heading-color: #00caef;
+$presentation-title-slide-text-align: "center";
+$presentation-subtitle-slide-text-align: "left";
+$code-block-font-size: 0.6em;
+$code-color: #808080;
+$presentation-h2-font-size: 1.4em;
+
+/*-- scss:rules --*/
+
+.reveal .title {
+  font-family: Lato;
+  font-size: 0.05em;
+  color: white;
+  position: absolute;
+  top: -500px;
+  padding: 10px;
+}
+
+.reveal .subtitle {
+  font-family: Lato;
+  text-align: left;
+  font-size: 80pt;
+}
+
+
+.reveal .custom-author {
+position: absolute;
+  font-size: 50em;
+  text-align: right;
+  right: 20px;
+  top: 300px;
+}
+
+.reveal .custom-twitter a {
+position: absolute;
+  color: #1DA1F2;
+  font-size: 1.3em;
+  text-align: right;
+  right: 20px;
+  top: 470px;
+}
+
+.reveal .custom-url a {
+position: absolute;
+  color: #E20317;
+  font-size: 1.5em;
+  text-align: right;
+  right: 20px;
+  top: 570px;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+.small {
+font-size: 0.75em;
+}
+
+.reveal .slide .in-out {
+margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #FFF8F1;
+  font-family: $font-family-monospace;
+  font-size: 0.6em;
+}
+
+
+.reveal .slide .goal {
+margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #ccddeb;
+}
+
+
+[contenteditable] {
+  outline-offset: 5px;
+  transition: outline-offset 0.25s linear;
+}
+
+[contenteditable]:hover {
+  outline: 1px dashed #ccc;
+}
+
+[contenteditable]:focus {
+  outline: 1px solid #bbb;
+  outline-offset: 10px;
+  transition: outline-offset 0.5s linear;
+}
+
+.xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-pause,
+.xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-backdrop {
+display: none;
+}

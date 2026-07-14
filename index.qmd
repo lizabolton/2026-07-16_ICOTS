@@ -1,0 +1,190 @@
+---
+title: "Talk data to me?"
+format:
+  revealjs:
+    theme: [default, theme.scss]
+    width: 1600 # Widescreen width
+    height: 900 # Widescreen height (16:9 aspect ratio)
+    slide-number: true
+    show-slide-number: all
+    incremental: true # Reveals bullet points one by one
+    #chalkboard: true # Enables a virtual chalkboard
+    #footer: "Waipapa Taumata Rau | University of Auckland"
+title-slide-attributes: 
+    data-background-image: "title.gif"
+    data-background-position: top
+    data-background-size: contain
+    data-background-opacity: "1"
+---
+
+## Get these slides 📱
+
+```{r, echo = F, fig.align='center'}
+plot(qrcode::qr_code("https://lizabolton.github.io/2025-09-11_ELL-dept-symposium/#/title-slide"))
+```
+
+🔗 You can also access these through: [link.lizabolton.com](https://link.lizabolton.com/) 
+
+For accessibility, there is alt text available for some images at the end.
+
+---
+
+::: columns
+
+::: {.column width="40%"}
+![Art credit: FanaticB on Redbubble, song lyric from "Tribute" by Tenacious D](img/tribute.png)
+:::
+
+::: {.column width="60%"}
+**Goal**: *Explore how support for ELL students can be integrated at various scales — from small modifications to teaching practices to large changes in assessment and design. Opportunities will be illustrated across junior and senior undergraduate statistics and data science courses in Canada, Aotearoa New Zealand and China.*
+
+**Outputs**: ICOTS presentation in Brisbane next year + peer reviewed conference paper (due later this year); NZSA(?); + RA led work (TBD)
+
+So for now, this in an *early* invitation to discuss challenges and opportunities you have faced and would like to share or seek support in.
+:::
+
+:::
+
+## Positionality statement
+
+::: columns
+
+::: {.column width="40%"}
+![Original photo credit: Heidi Martin Photography](img/liza8bit.png){width=100%}
+:::
+
+::: {.column width="60%"}
+Bonjour, kia ora, 你好 (안녕, こんにちは)
+
+<br>
+English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don't.
+
+<br>
+Language is not 'just' a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
+:::
+
+:::
+
+
+## ELLs are not a monolith
+
+::: columns
+
+::: {.column width="40%"}
+![8-bit Tower of Babel?](img/babel.png)
+
+:::
+
+::: {.column width="60%"}
+
+👩🏻‍🎓 ELL = English Language Learner. You may be familiar with EAL (English as an Additional Language) or ESOL (English for Speakers of Other Languages).
+
+🈶 The majority of the ELL students I have taught have Chinese backgrounds (University of Toronto, University of Auckland, teaching at Southwest University 西南大学).
+
+💰 This project is funded out of the money related to teaching into our Transnational Education Agreement programme with Southwest University 西南大学.
+
+:::
+
+::: 
+
+
+## ELL support at UofT vs WTR
+
+![](img/map.png){fig-align="center"}
+
+::: {.notes}
+'Mega' Faculty of Arts & Science
+:::
+
+---
+
+{{< pdf pdf/jingdi.pdf width=100% height=900 >}}
+
+---
+
+{{< pdf pdf/christy.pdf width=100% height=900 >}}
+
+---
+
+{{< pdf pdf/lab_w11_task.html width=100% height=900 >}}
+
+---
+
+{{< pdf pdf/ping.pdf width=100% height=900 >}}
+
+
+# Some other ideas
+
+## 🤔 Think 👯 Pair 🗣️ Share
+
+- In this classroom strategy, you present students with a task or question and then they work through three phases: thinking, pairing and finally sharing. 
+
+- The sharing can be out loud in the class, but I really like to pair the speaking ‘pairing’ phase with an anonymous written ‘sharing’ phase using an app like Anna’s Stats App to reduce embarrassment. 
+
+::: columns
+
+::: {.column width="50%"}
+
+:::
+
+::: {.column width="50%"}
+:::
+
+:::
+
+## Supporting spoken instructions with written/visual prompts
+
+- This is an example of one (of the many!) reasons doing peer observations of teaching is helpful. If I found I was missing or not fully hearing instructions during an activity, it seems reasonable to expect students will too. 
+
+- Not only does this support ELL students, but it can also support students with auditory processing issues or executive function/focus challenges. *Multi-support win!* 🏅 
+
+- ⏎🔥 Backfire: teaching at SWU, this meant students just put the questions in an LLM chat bot and submitted the answer from DeepSeek 😭.
+
+## Creating glossaries/cheat sheets as an assessment task
+
+- In recent years, it has been more common to hear student feedback at class rep meetings about wanting teacher provided glossaries and summary sheets.
+- Perhaps many of our students haven't learned how to learn.
+- In this strategy, students are tasked with creating the desired outputs, and provided appropriate support, as part of an assessment.
+- This strategy explicitly incentivises learning practices that also support language acquisition and academic success.
+
+---
+
+### STATS 330 example
+
+{{< pdf pdf/STATS330_assignment-3_task.html width=100% height=900 >}}
+
+---
+
+### STA303 example (University of Toronto)
+
+[Direct link](https://sta303-bolton.github.io/sta303-w22-courseguide/knowledge-basket-other.html#linear-mixed-models-study-guide)
+
+## References {visibility="uncounted"}
+
+Please see each RA's slide for their specific references.
+
+### Images
+Unless otherwise stated, all images were created with Gemini 2.5.
+
+*This Is Not The Greatest Song In The World This Is Just A Tribute Kids T-Shirt*. [Image]. Designed and sold by FanaticB. https://www.redbubble.com/i/kids-t-shirt/This-Is-Not-The-Greatest-Song-In-The-World-This-Is-Just-A-Tribute-by-FanaticB/164147311.MZ153
+
+# Alt text {visibility="uncounted"}
+
+## Title page {visibility="uncounted"}
+An 8-bit style presentation slide with the title "Talk data to me?". Two 8-bit characters, one with black hair and a red shirt on the left, and another with brown hair and a purple shirt on the right, stand on either side of a dark blue and light blue 8-bit wave design. The wave swaps direction between the two in a simple animation, as their mouths open and close. Below the wave, the text reads "Supporting English Language Learners in Statistics and Data Science" followed by a list of names under "Liza Bolton, Ping Huang, Christy Sun, Jingdi Sun with collaborators at the University of Toronto: Nathalie Moon, Samantha-Jo Caetano, J. Sparks, Quin Xie".
+
+## Slide 3 {visibility="uncounted"}
+
+A graphic featuring an acoustic guitar surrounded by red roses and black decorative swirls. The text at the top reads "THIS IS NOT THE GREATEST SONG IN THE WORLD." Below the guitar, the text continues "THIS IS JUST A TRIBUTE." The overall style is illustrative with a vintage feel, and the phrase "FanaticB" is in small text at the bottom right.
+
+## Positionality statement {visibility="uncounted"}
+
+An 8-bit pixel art character with brown wavy hair and a light blue striped shirt sits in a chair, holding a white paper. Behind them is a bookshelf with colourful books and a Halloween pumpkin bucket. The character has an open mouth as if speaking.
+
+## ELLs are not a monolith {visibility="uncounted"}
+
+An 8-bit image of a spiralling tower with many levels, aiming to represent the Tower of Babel.
+
+## ELL support at UofT vs WTR {visibility="uncounted"}
+
+An 8-bit pixel image of a map of the world.
