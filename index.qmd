@@ -506,7 +506,9 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 
 ::: {.column .left-column-container width="60%"}
 
-- **Scaffold contexts for interest and accessibility** [@carver2016guidelines; @fergusson2022introducing]
+- **Scaffold contexts for interest and accessibility**
+  - Immerse! [@carver2016guidelines; @fergusson2022introducing]
+  - Give students opportunties to engage with data and data dictionaries before timed assessments.
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -533,7 +535,7 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 
 ---
 
-## Big: Design and institutional support
+## Big: design and institutional support
 
 :::: {.columns}
 
@@ -552,11 +554,11 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 :::
 
 ::: {.artwork-title}
-*Elephant* (179-)
+*Elephant* (1790)
 :::
 
 ::: {.meta}
-Ink on paper, hanging scroll
+Ink on paper, hanging scroll | Tokyo Fuji Art Museum
 :::
 :::
 
@@ -598,7 +600,7 @@ Ink on paper, hanging scroll
 
 
 ### The result
-- From NO raised hands to 50%-70% of the class submitting answers
+- From NO raised hands to 50%-70% of the class submitting answers.
 
 
 :::
@@ -640,7 +642,7 @@ Ink on paper, hanging scroll
 
 ---
 
-## With gratitude  💐
+## With gratitude to  💐
 
 ::: {.fragment}
 The many **students**, **teaching assistants**, and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners.
@@ -651,11 +653,11 @@ The many **students**, **teaching assistants**, and **colleagues** who have cont
 :::
 
 ::: {.fragment}
-Thank you also to our **ICOTS 12 conference proceedings reviewers** — your thoughtful comments helped us improve this presentation and accompanying paper.
+Our **ICOTS 12 conference proceedings reviewers** — your thoughtful comments helped us improve this presentation and accompanying paper.
 :::
 
 ::: {.fragment}
-Thank you to all those involved with making ICOTS happen. And thanks to the lads in the AV booth at the back!
+All those involved with making ICOTS happen. And thanks to the lads in the AV booth at the back!
 :::
 
 ::: {.fragment}
