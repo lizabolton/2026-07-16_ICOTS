@@ -41,6 +41,10 @@
   line-height: 1.5;
 }
 
+.reveal a {
+  color: #1A433A;
+}
+
 .reveal .citation, .reveal .citation * {
   font-size: 1rem;
   line-height: 0.2;
@@ -533,3 +537,63 @@
   font-size: 0.9rem; /* Or 12px, 80%, etc. */
   line-height: 1.3;
 }
+
+
+/* ==========================================================================
+   Quarto Native Tabset & Tabby Customization
+   ========================================================================== */
+
+/* 1. Main Container Wrapper */
+.panel-tabset {
+  border: 1px solid #d8d2c4; /* Soft warm-gray border matching the plaque */
+  border-radius: 2px; /* Sharper edges to match the plaque card look */
+  margin-bottom: 1em;
+  box-shadow: 0 0.05rem 0.15rem rgba(0, 0, 0, 0.03);
+  background-color: #ffffff;
+}
+
+/* 2. Navigation Header Bar & Inner Tab List Wrapper */
+.panel-tabset .panel-tabset-tabby,
+.panel-tabset ul.nav-tabs {
+  background-color: #f4edd8 !important; /* Warm, vintage-cream ribbon background */
+  border-bottom: 2px solid #8c6239 !important; /* Vintage brown divider line */
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* 3. Individual Tab Links (Inactive Base State) */
+.panel-tabset .panel-tabset-tabby a,
+.panel-tabset ul.nav-tabs li a.nav-link {
+  color: #666056 !important; /* Muted charcoal/brown text */
+  border: none !important;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1.8rem !important; /* Clear serif scale typography for headers */
+  font-weight: 600 !important;
+  padding: 0.5rem 1.2rem !important;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* 4. Hover State over Inactive Tabs */
+.panel-tabset .panel-tabset-tabby a:hover,
+.panel-tabset ul.nav-tabs li a.nav-link:hover {
+  color: #8c2d19 !important; /* Deep terracotta red accent on hover */
+  background-color: #eae4d3 !important; /* Slightly darker warm beige ribbon segment */
+  border-radius: 2px 2px 0 0 !important;
+  text-decoration: none;
+}
+
+/* 5. Active Tab State (The Selected View Window) */
+.panel-tabset .panel-tabset-tabby a.active,
+.panel-tabset ul.nav-tabs li a.nav-link.active {
+  color: #faf6ee !important; /* Soft paper-cream text */
+  background-color: #1A433A !important; /* Deep forest green active accent */
+  border-radius: 2px 2px 0 0 !important;
+  border: none !important;
+}
+
+

@@ -70,7 +70,7 @@ link-citations: true
 <span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, 
 <span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>. 
 
-![](img/qr_code.png){fig-align="center" width=55%  alt="QR code with ICOTS logo embedded"}
+![](img/qr_code.png){fig-align="center" width="55%"  alt="QR code with ICOTS logo embedded"}
 
 
 ::: {.gallery-plaque}
@@ -192,7 +192,7 @@ Language is not *just* a skill — it is part of **culture**, **identity**, and 
 
 
 ::: {.notes}
-English is the first language I learned, *and it is the only language I am fluent it.*
+English is the first language I learned, *and it is the only language I am fluent in.*
 I have never had my personal success, safety, or access to resources rely on my abilities in another language. 
 *This is despite being born in a country where I don't speak any of the indigenous languages, moving as a young person to another country where I didn't speak the indigenous language, and being here with your today in another country where I don't speak the Indigenous language. I'd also like to acknowledge that* many people in this room will have first-hand experience with learning English as an additional language that I don’t.
 :::
@@ -234,7 +234,7 @@ Not a lot of ELLs? Should you sneak out now?
 
 :::{.fragment}
 - Connects to: **Universal Design for Learning** & **trauma-informed pedagogy**.
--  May pull financial levers in your institution that other lenses do not
+-  May pull financial levers in your institution that other lenses do not.
 :::
 
 :::{.fragment}
@@ -265,7 +265,7 @@ Oil on canvas | Collection of the Banco de España, Madrid
 
 :::
 
-::: {.column .column-image-bg role="img" alt="A trompe-l'oeil painting of a wide-eyed, barefoot boy climbing forward out of a dark picture frame, gripping the edges as if stepping into the real world." style="background-image: url('img/del_caso.jpg'); width: 40%;"}
+::: {.column .column-image-bg role="img" alt="A trompe-l'oeil painting of a wide-eyed, barefoot boy climbing forward out of a dark picture frame, gripping the edges as if stepping into the real world." style="background-image: url('img/del_caso.png'); width: 40%;"}
 :::
 
 ::::
@@ -303,7 +303,7 @@ Oil on canvas | Collection of the Banco de España, Madrid
 :::{.notes}
 Writing, coding, and speaking are not just to produce outputs.
 
-So many of the panels and talks this week have reinforced the value of what we do. In Mine's response in the What's my fitted model panel, she made a really great point about the challenges of translation with out the ability to check the quality of these translations. This was with respect to code, but the language example holds true.
+So many of the panels and talks this week have reinforced the value of what we do. In Mine's response in the What's my fitted model panel, she made a really great point about the challenges of translation without the ability to check the quality of these translations. This was with respect to code, but the language example holds true.
 :::
 
 ::: {.gallery-plaque}
@@ -333,7 +333,7 @@ Oil on canvas | Tate Modern, London
 
 ---
 
-## Around the globe in 80 years
+## Around the world in 80 years
 
 :::: {.columns}
 
@@ -341,7 +341,7 @@ Oil on canvas | Tate Modern, London
 
 - Rapid **globalisation** and student mobility over the last 80 years, particularly Asia → Western Anglophone nations. [@altbach2009trends; @marginson2016high]
 - English as the **lingua franca** of academia. [@wilkins2014english] 
-- Higher ed **marketised**, international students a critical source of revenue for institutions. [@knight2004internationalization; @oecd2025key]. 
+- Higher ed **marketised**, international students a critical source of revenue for institutions [@knight2004internationalization; @oecd2025key]. 
 
 :::{.notes}
 Over the last 80 years, tertiary education has been defined by rapid globalisation and student mobility, particularly from Asia to Western Anglophone nations with post-graduation work opportunities (Altbach et al., 2009; Marginson, 2016). This has fostered the rise of English as the lingua franca of academia (Wilkins and Urbanovič, 2014). At the same time, higher education has become increasingly marketised, with international students viewed as a critical source of revenue for institutions (Knight, 2004; OECD, 2025). 
@@ -377,7 +377,7 @@ Oil on panel | Private Collection
 ::::{.columns}
 
 :::{.column width="91%"}
-![](img/international students.png)
+![](img/international_students.png)
 :::
 
 ::: {.column width="9%" .small-text}
@@ -466,9 +466,11 @@ In our own teaching and through discussions with colleagues, we are aware of the
 
 ::: {.column .left-column-container width="60%"}
 
-- **The power of pausing**: Pausing 🧘‍♀️ > going slow 🐢
-- **Speaking AND writing instructions and answers**
-- **Be explicits with navigating shared languages and translanguaging**
+- **The power of pausing**: Pausing 🧘‍♀️ > going slow 🐢 [@blau1990effect; @hayati2010effect; @lesser2009english]
+- **Speake AND write instructions/answers**
+- **Be explicit when navigating shared languages and translanguaging** [@dovchin2024resistance]
+  - Shared languages for encouragement
+  - Language of instruction for help with assessments, concepts, etc. 
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -488,9 +490,8 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 
 :::
 
-:::
 
-::: {.column .column-image-bg role="img" alt='' style="background-image: url('img/ducks.jpg'); width: 40%;"}
+::: {.column .column-image-bg role="img" alt='Traditionally styled Chinese ink painting depicting two ducks by reeds at the water edge.' style="background-image: url('img/ducks.jpg'); width: 40%;"}
 :::
 
 
@@ -505,7 +506,7 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 
 ::: {.column .left-column-container width="60%"}
 
-- **Scaffold contexts for interest and accessibility**
+- **Scaffold contexts for interest and accessibility** [@carver2016guidelines; @fergusson2022introducing]
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -539,7 +540,10 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 ::: {.column .left-column-container width="60%"}
 
 - **Communication skills workshops**
-- **Relational pedagogies**
+  - Lexical ambiguity [@whitaker2016lexical]
+  - Hedging langugage [@alqurashi2019pragmatic; @wishnoff2000hedging]
+- **Relational pedagogies** 
+  [@aspelin2020teaching; @quinlan2022relational]
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -552,7 +556,7 @@ Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Fr
 :::
 
 ::: {.meta}
-Ink on paper, hanging scroll |
+Ink on paper, hanging scroll
 :::
 :::
 
@@ -594,7 +598,7 @@ Ink on paper, hanging scroll |
 
 
 ### The result
-> From NO raised hands to 50%-70% of the class submitting answers
+- From NO raised hands to 50%-70% of the class submitting answers
 
 
 :::
@@ -621,7 +625,7 @@ Ink on paper, hanging scroll |
 
 ### Writing
 - The course design integrated frequent, low-stakes writing practice through weekly writing tasks and online discussion boards, culminating in a scaffolded group project that included a proposal, final report, and peer review. 
-- Data were collected using pre- and post-course surveys in which students self-assessed their professional writing proficiency and identified the course components most beneficial to their development
+- Data were collected using pre- and post-course surveys in which students self-assessed their professional writing proficiency and identified the course components most beneficial to their development.
 
 ### Findings
 - Improvements for all: The proportion of students rating their proficiency as Good or higher rose from 63% at the start of the semester to 78% by the end.
@@ -643,7 +647,7 @@ The many **students**, **teaching assistants**, and **colleagues** who have cont
 :::
 
 ::: {.fragment}
-Funding: Waipapa Taumata Rau | University of Auckland Faculty of Science Scholarship of Teaching and Learning Grant
+💰: Waipapa Taumata Rau | University of Auckland Faculty of Science Scholarship of Teaching and Learning Grant
 :::
 
 ::: {.fragment}
@@ -678,9 +682,10 @@ About these slides:
 - There are references on the following slides. 
 :::
 ::::
+
 ---
 
-## References {visibility="uncounted"}
+## References (scrollable) {visibility="uncounted"}
 
 ::: {#refs}
 :::
