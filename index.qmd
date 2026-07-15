@@ -1,5 +1,5 @@
 ---
-title: "Talk Data to Me"
+title: "Talk Data to Me?"
 subtitle: "Supporting English Language Learners in Statistics and Data Science"
 author:
   - name: <u>Liza Bolton</u>
@@ -25,7 +25,7 @@ author:
       - ref: uoa
   - name: Jingdi Sun
     affiliations:
-      - ref: uoft
+      - ref: uoa
 affiliations:
   - id: uoa
     name: "Waipapa Taumata Rau University of Auckland"
@@ -43,6 +43,8 @@ format:
   revealjs:
     theme: default
     css: custom.css
+    width: 1920
+    height: 1080
     slide-number: c/t
     hash-type: number
     controls: false
@@ -56,18 +58,19 @@ bibliography: references.bib
 link-citations: true
 ---
 
-
+## Warm Pacific greetings
 
 :::: {.columns}
 
-::: {.column width="60%"}
-### Warm Pacific greetings
-
-<span class="tooltip">Talofa lava<span class="tooltiptext">Samoan</span></span>, <span class="tooltip">Malo e lelei<span class="tooltiptext">Tongan</span></span>, <span class="tooltip">Kia orana<span class="tooltiptext">Cook Islands Māori</span></span>, <span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, <span class="tooltip">Mālo ni<span class="tooltiptext">Tokelauan</span></span>, <span class="tooltip">Ni sa bula<span class="tooltiptext">Fijian</span></span>, <span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, <span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>. 
-:::
-
-::: {.column width="40%"}
-<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="width: 90%;" class="presentation-image">
+::: {.column .left-column-container width="60%"}
+<span class="tooltip">Talofa lava<span class="tooltiptext">Samoan</span></span>, 
+<span class="tooltip">Malo e lelei<span class="tooltiptext">Tongan</span></span>, 
+<span class="tooltip">Kia orana<span class="tooltiptext">Cook Islands Māori</span></span>, 
+<span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, 
+<span class="tooltip">Mālo ni<span class="tooltiptext">Tokelauan</span></span>, 
+<span class="tooltip">Ni sa bula<span class="tooltiptext">Fijian</span></span>, 
+<span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, 
+<span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>.
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -79,9 +82,14 @@ Greetings from New Zealand
 :::
 
 ::: {.meta}
-1900-1910, New Zealand. Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
+1900-1910 (with later colouring likely added), New Zealand. Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
 :::
 :::
+:::
+
+
+::: {.column .column-image-bg width="40%" role="img" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="background-image: url('img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg');"}
+
 
 :::
 
@@ -89,23 +97,78 @@ Greetings from New Zealand
 
 ---
 
-## Acknowledgement of country
+## Acknowledgement of country 
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
 
 We acknowledge the **Jagera** and **Turrbal** peoples as the Traditional Custodians of **Meanjin** (Brisbane), the lands and waterways where we gather, learn, and share knowledge during ICOTS 12.
 
 We pay our respects to their Elders past, present, and emerging, recognizing their enduring and continuous connection to land, water, and community.
 
+::: {.gallery-plaque}
+::: {.artist}
+**Mike Tippo**  
+*Australia, QLD, b.1954*
+:::
+
+::: {.artwork-title}
+*The making of Queensland Aboriginal law* (1989)
+:::
+
+::: {.meta}
+Synthetic polymer paint on canvas  
+Queensland Art Gallery | Gallery of Modern Art   
+© Mike Tippo 
+[Collection link](https://collection.qagoma.qld.gov.au/objects/1608)
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg width="40%" role="img" alt='The artwork is made with synthetic polymer paint that creates a dense, detailed composition rooted in Indigenous Australian visual storytelling. It combines traditional dotting techniques, repeating geometric patterns, and stylized symbolic figures or tracks that map out concepts of law, culture, and country in rich earth tones contrasted with striking lines.' style="background-image: url('img/tippo.jpg');"}
+:::
+
+
+::::
+
+
 ---
 
-## Tangata whenua & land acknowledgement 
+## Tangata whenua
 
-The teaching and research that informs this presentation were conducted on the traditional lands of
-**Māori** under te Tiriti o Waitangi ([Waipapa Taumata Rau University of Auckland](https://www.auckland.ac.nz/en.html)) and of the
-**Anishinaabe**, the **Haudenosaunee** and the **Mississaugas of the Credit** under the Dish With One Spoon
-Treaty and, more recently, Treaty 13 between the **Mississaugas** and the British Crown ([University of
-Toronto](https://www.utoronto.ca/)). Additional teaching and learning experiences at Southwest University, China, also informed this work.
+:::: {.columns}
 
----
+::: {.column .left-column-container width="60%"}
+
+The teaching and research that informs this presentation were conducted on the traditional lands of **Māori** under te Tiriti o Waitangi and of the **Anishinaabe**, the **Haudenosaunee** and the **Mississaugas of the Credit** under the Dish With One Spoon Treaty and, more recently, Treaty 13 between the **Mississaugas** and the British Crown. 
+
+Additional experiences at Southwest University, China, also informed this work.
+
+::: {.gallery-plaque}
+::: {.artist}
+**Emily Kewageshig**  
+
+:::
+
+::: {.artwork-title}
+*The Stillness of Winter* (2025)
+:::
+
+::: {.meta}
+Fine art print  
+[www.emily-kewageshig.com](https://www.emily-kewageshig.com/)  
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg width="40%" role="img" alt='A painting featuring stylized animals of the land, air, and water. A deer stands in front of a glowing sun on a hill, flanked by a flying eagle on the left and a snow-dusted pine tree on the right. Below them, a green sea turtle and a brown fish swim in flowing blue water against a bright blue background.' style="background-image: url('img/kewageshig.jpg');"}
+:::
+
+
+::::
 
 
 
@@ -113,9 +176,129 @@ Toronto](https://www.utoronto.ca/)). Additional teaching and learning experience
 
 ## Positionality statement
 
-English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don’t.
+:::: {.columns}
 
-Language is not ‘just’ a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
+::: {.column .left-column-container width="60%"}
+
+:::{.fragment}
+English is the first language I learned.
+:::
+
+:::{.fragment} 
+I have never had my personal success, safety, or access to resources rely on my abilities in another language. 
+:::
+
+:::{.fragment}
+Many people in this room will have first-hand experience with learning English as an additional language that I don’t.
+:::
+
+
+:::{.fragment}
+Language is not *just* a skill — it is part of **culture**, **identity**, and how we know others and make ourselves known in turn.
+:::
+
+
+::: {.notes}
+English is the first language I learned, *and it is the only language I am fluent it.*
+I have never had my personal success, safety, or access to resources rely on my abilities in another language. 
+*This is despite being born in a country where I don't speak any of the indigenous languages, moving as a young person to another country where I didn't speak the indigenous language, and being here with your today in another country where I don't speak the Indigenous language. I'd also like to acknowledge that* many people in this room will have first-hand experience with learning English as an additional language that I don’t.
+:::
+
+::: {.gallery-plaque}
+::: {.artist}
+**Leonardo da Vinci**
+*Italy, b.1452–d.1519*
+:::
+
+::: {.artwork-title}
+Portrait of an unknown woman (c. 1490–96)
+:::
+
+::: {.meta}
+Oil on wood panel
+Musée du Louvre, Paris
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg width="40%" role="img" alt='A close-up oil portrait of a young woman. The subject is turned slightly to the right but directs a calm, steady gaze out toward the viewer. She has fair skin, high cheekbones, dark oval eyes, and straight dark hair slicked back over her ears, with a thin black cord across her brow holding a small red gemstone. Her ornate dress is deep red with gold and brown trim, detailed with puffed white undersleeves tied with gold ribbons. She is positioned behind a simple grey stone ledge, and the entire background is flat, solid black.' style="background-image: url('img/davinci.jpg');"}
+:::
+
+
+::::
+
+---
+
+## 
+
+:::: {.columns}
+::: {.column .left-column-container width="60%"}
+::: {.column-margin .ribbon-vintage}
+![](img/hattip.gif){.fedora}
+
+[Nicky Wakim on trauma-informed pedagogy]()
+
+:::
+
+::: {.gallery-plaque}
+::: {.artist}
+**Mike Tippo**  
+*Australia, QLD, b.1954*
+:::
+
+::: {.artwork-title}
+*The making of Queensland Aboriginal law* (1989)
+:::
+
+::: {.meta}
+
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg width="40%" role="img" alt='' style="background-image: url('img/tippo.jpg');"}
+:::
+
+
+::::
+
+---
+
+## ELL
+
+### Terminology, not a monolith
+
+---
+
+## Is this talk worthwhile?
+
+* **The Elephant in the Room:** Reference to *We Don't Talk About Bruno*.
+* **Accessibility Angles:** While several talks consider UDL (Universal Design for Learning) and accessibility, this addresses a distinct linguistic lens.
+* **The Importance of Process:** Writing, coding, and speaking are not just to produce outputs. Our practices form our thoughts and help clarify them. While AI and technological enhancements will change *how* we approach these products, the human process will continue to matter.
+* **Scope:** What if you don't currently have ELL students in your classes?
+
+---
+
+## Globalised education
+
+---
+
+## Three levels of adjustment
+
+---
+
+## Micro, Meso, & Macro Adjustments
+
+### Micro
+Individual, immediate interactions and terminology framing.
+
+### Meso
+Course-level structural changes, assignment scaffolding, and assessments.
+
+### Macro
+Institutional policies, systemic support, and curriculum design.
 
 ---
 
@@ -128,37 +311,22 @@ You can hover over key terms to see inline extra information or full citations.
 
 ---
 
-##
+## With gratitude
 
 :::: {.columns}
 
 ::: {.column width="60%"}
+We would like to acknowledge the many **students**, **teaching assistants**, and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners.
 
-### With gratitude
+Thank you also to our **ICOTS 12 conference proceedings reviewers** — your thoughtful comments helped us improve this presentation and accompanying paper.
 
-We would like to acknowledge the many **students**, **teaching assistants** and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners. 
+Thank you to all those involved with making ICOTS happen. And thanks to the crew in the AV booth at the back!
 
-Thank you also to our **ICOTS 12 conference proceedings reviewers**, your thoughtful comments helped us improve this presentation and accompanying paper.
-
+Last, but certainly not least, thank **YOU** for being here.
 :::
 
 ::: {.column width="40%"}
-<img src="img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg" alt="" style="width: 90%;" class="presentation-image">
-
-::: {.gallery-plaque}
-::: {.artist}
-
-:::
-
-::: {.artwork-title}
-
-:::
-
-::: {.meta}
-
-:::
-:::
-
+![](img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg){style="width: 90%;" class="presentation-image"}
 :::
 
 ::::
@@ -169,3 +337,9 @@ Thank you also to our **ICOTS 12 conference proceedings reviewers**, your though
 
 ::: {#refs}
 :::
+
+---
+
+### Icons
+
+- Fedora by parkjisun from <a href="https://thenounproject.com/browse/icons/term/fedora/" target="_blank" title="Fedora Icons">Noun Project</a> (CC BY 3.0)

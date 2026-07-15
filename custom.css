@@ -1,168 +1,343 @@
 /* ==========================================================================
-   Typography & Auditorium Visibility
+   Typography & Presentation Visibility Baseline
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Egenolff&family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
 
 .reveal {
   font-family: 'EB Garamond', 'Instrument Serif', Georgia, serif;
-  font-size: 38px; /* Extra large for large auditoriums */
+  /* Lifted baseline text size so it remains clear in large presentation halls */
+  font-size: 50px;
   color: #2b2b2b;
   background-color: #faf6ee; /* Soft, paper-like warm background */
 }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+.reveal h1, .reveal h2, .reveal h3 {
   font-family: 'Instrument Serif', 'EB Garamond', serif;
   font-weight: 600;
   color: #1a1a1a;
   text-transform: none;
   word-wrap: break-word;
-  padding-top: 0.3em;
+  padding-top: 0.2rem;
 }
 
+/* Slide Titles */
 .reveal h2 {
-  font-size: 1.7em;
-  /* border-bottom: 2px solid #d4c5b3; /* Painterly divider line */
-  padding-bottom: 10px;
+  font-size: 6rem; /* Large, bold screen titles */
+  padding-bottom: 0.4rem;
 }
 
-.subtitle {
-  font-size: 1.5em;
-  /* border-bottom: 2px solid #d4c5b3; /* Painterly divider line */
-  padding-bottom: 10px;
+.reveal h3 {
+  font-size: 4rem; /* Large, bold screen titles */
+  padding-bottom: 0.4rem;
+}
+
+
+
+/* Presentation Main Body Text Defaults */
+.reveal p, .reveal li, .reveal div.column {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Target only the title on the title/cover slide */
+.reveal .quarto-title-block .title {
+  font-size: 10rem !important; /* Increase or decrease this value to your liking */
+  line-height: 1.3;
+  margin-top: 0.5rem;
+}
+
+/* Target only the subtitle on the title/cover slide */
+.reveal .quarto-title-block .subtitle {
+  font-size: 6rem !important; /* Increase or decrease this value to your liking */
+  line-height: 1.3;
+  margin-top: 0.5rem;
 }
 
 /* ==========================================================================
    Footer & Header Progress Customization
    ========================================================================== */
 
-.reveal .footer {
-  font-family: 'EB Garamond', serif;
-  font-size: 0.55em !important;
+/* Target the footer container, any paragraphs, or links inside it */
+.reveal .footer,
+.reveal .footer *,
+.reveal .slide-footer,
+.reveal .slide-footer * {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1.5rem !important; /* Scales down cleanly to ~20px on your HD slide */
   color: #666056 !important;
-  opacity: 0.8;
+  opacity: 0.8 !important;
 }
 
 .reveal .slide-number {
   font-family: 'EB Garamond', serif;
-  font-size: 0.5em !important;
+  font-size: 1.5rem !important;
   color: #666056 !important;
   background-color: transparent !important;
 }
 
-/* Customizing the top progress bar color */
 .reveal .progress {
-  height: 6px !important;
-  color: #8c2d19; /* A deep, rich terracotta red */
+  height: 0.2rem !important;
+  color: #8c2d19; /* Deep terracotta red */
 }
 
 /* ==========================================================================
    Hover Tooltip / Source Reference Popups
    ========================================================================== */
 
-/* The tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 2px dashed #1A433A; /* Visual cue for hover */
+  border-bottom: 0.06rem dashed #1A433A;
   color: #1A433A;
   cursor: help;
 }
 
-/* Tooltip text box (hidden by default) */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 350px;
+  width: 12rem; /* Wider element target bounds for HD layout */
   background-color: #332f29;
   color: #f7f4eb;
   text-align: left;
-  border-radius: 6px;
-  padding: 12px;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
   position: absolute;
   z-index: 100;
-  bottom: 125%; /* Position above the text */
+  bottom: 125%;
   left: 50%;
-  margin-left: -175px; /* Center the tooltip */
+  margin-left: -6rem;
   opacity: 0;
   transition: opacity 0.3s;
   font-family: 'EB Garamond', serif;
-  font-size: 0.65em; /* Scale down relative to huge slide text */
+  font-size: 3rem;
   line-height: 1.4;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0.15rem 0.4rem rgba(0,0,0,0.2);
 }
 
-/* Show the tooltip on hover */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
 
+/* ==========================================================================
+   Images & Responsive Layout Adjustments
+   ========================================================================== */
 
-/* Style for large auditorium images */
 .reveal .presentation-image {
   max-width: 100%;
-  padding: 20px -20px;
-  max-height: 500px; /* Keeps it within the slide bounds safely */
+  padding: 0.4rem 0;
+  max-height: 40rem; /* Expanded constraint bounds to prevent image vanishing */
   object-fit: contain;
-  border-radius: 4px;
-
+  border-radius: 0.15rem;
   display: block;
   margin: 0 auto;
 }
 
-.reveal .slide-menu-button .fa-bars::before {
-  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="%231A433A"/></svg>') !important;
-}
+/* ==========================================================================
+   Title Slide Author & Affiliation Grid
+   ========================================================================== */
 
 .quarto-title-authors {
-  font-size: 0.5em !important;
-  display: flex;
-  flex-wrap: wrap;        /* Allows authors to flow to the next line */
-  justify-content: center;
-  max-width: 180%;         /* Restricts the width so they are forced to break into two rows */
-  margin: 0 auto;
-  gap: 1.5em;             /* Horizontal space between names */
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  max-width: 100% !important;
+  gap: 1.2rem;
+  margin: 0.5rem auto 0 auto !important;
 }
 
+.reveal .quarto-title-authors .author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 22%;
+  max-width: 24%;
+  margin-bottom: 0.6rem;
+}
+
+.reveal .quarto-title-authors .author span {
+  font-family: 'Instrument Serif', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 0.9rem !important; /* Fixed hierarchy for names */
+  color: #1a1a1a;
+  margin-bottom: 0.1rem;
+}
+
+.reveal .quarto-title-affiliation {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 1.6rem !important; /* Balanced university scale text size */
+  color: #555555 !important;
+  line-height: 1.3;
+  margin-top: 0.05rem;
+}
+
+/* ==========================================================================
+   Gallery Plaque Card Layout
+   ========================================================================== */
 
 .gallery-plaque {
   background-color: #ffffff;
   color: #1a1a1a;
-  padding: 5px 5px;
-  border-radius: 2px;
+  padding: 0.5rem;
+  border-radius: 0.08rem;
   font-family: 'EB Garamond', 'Instrument Serif', serif;
+  max-width: 100%; /* Spans naturally under image asset columns */
+  margin: 0.4rem auto;
+  border-left: 0.02rem solid #eaeaea;
+  border-top: 0.02rem solid #eaeaea;
+  box-sizing: border-box;
 
-  /* Plaque dimensions and placement spacing */
-  max-width: 450px;
-  margin: 5px auto;
-  border-left: 1px solid #eaeaea;
-  border-top: 1px solid #eaeaea;
-
-  /* Gallery wall drop shadow */
   box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.05),   /* Soft ambient shadow close to the edge */
-    0 10px 20px rgba(0, 0, 0, 0.08), /* Deeper shadow mimicking overhead gallery lighting */
-    0 4px 6px rgba(0, 0, 0, 0.05);   /* Extra depth layer */
+    0 0.05rem 0.15rem rgba(0, 0, 0, 0.05),
+    0 0.3rem 0.75rem rgba(0, 0, 0, 0.08),
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.05);
+}
 
-  /* Keeps layout clean if you put headers inside */
+.gallery-plaque .artist * {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.gallery-plaque .artwork-title * {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.gallery-plaque .meta * {
+  font-size: 1.5rem;
+  color: #666666;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Split Slide - Reusable Background Image Column (Right 40%)
+   ========================================================================== */
+
+.reveal .column-image-bg {
+  position: absolute;
+  /* Use negative values to break past the default slide padding */
+  top: -2rem;
+  right: -2rem;
+  bottom: -2rem;
+
+  /* Calculate the exact height/width accounting for the negative margins */
+  height: calc(100% + 4rem);
+  width: calc(40% + 2rem);
+
+  /* Background properties */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Layout container to align plaque to the bottom */
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem !important; /* Elegant spacing around the overlay card */
   box-sizing: border-box;
 }
 
-/* Optional helper styles inside the plaque to match gallery standards */
-.gallery-plaque .artist {
-  font-weight: 100;
-  font-size: 16px;
-  margin-bottom: 4px;
+/* Plaque container updates */
+.reveal .column-image-bg .gallery-plaque {
+  background-color: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(5px); /* Soft glassmorphism effect over the artwork */
+  max-width: 100%;
+  margin: 0;
+  border-radius: 4px; /* Slightly rounded corners for a modern aesthetic */
 }
 
-.gallery-plaque .artwork-title {
-  font-style: italic;
-  font-size: 14px;
-  margin-bottom: 8px;
+/* ==========================================================================
+   Left Column Positioning Anchor
+   ========================================================================== */
+
+.reveal .left-column-container {
+  position: relative !important;
+  height: 100%; /* Fills the vertical workspace height */
+  box-sizing: border-box;
 }
 
-.gallery-plaque .meta {
-  font-size: 12px;
-  color: #666666;
-  line-height: 1.4;
+/* Absolute positioning for the plaque to sit at the bottom-right of the left column */
+.reveal .left-column-container .gallery-plaque {
+  position: absolute;
+  bottom: 6.5rem; /* Anchored elegantly above the footer */
+  right: 1.5rem;  /* Pushed cleanly to the right edge of the 60% block */
+  margin: 0;
+
+  /* Restrict the width so it looks like a clean, compact gallery card */
+  max-width: 35rem;
+  background-color: #ffffff;
+  border: 0.02rem solid #eaeaea;
+}
+
+/* Cleanup the background image padding on the right column */
+.reveal .column-image-bg {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  bottom: -2rem;
+  height: calc(100% + 4rem);
+  width: calc(40% + 2rem);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0 !important; /* No padding needed anymore since the plaque moved! */
+}
+
+
+/* ==========================================================================
+   Hat tip ribbon
+   ========================================================================== */
+
+
+.ribbon-vintage {
+  position: absolute;
+  left: -10%;         /* Pins it directly to the far left of the slide canvas */
+  top: 5%;        /* Adjust this percentage to move it up or down vertically */
+  width: 40vw;
+  background: #f4edd8;
+  border: 2px dashed #8c6239;
+  border-left: none;
+  color: #4a3b32;
+  padding: 1rem;   /* Added back slightly so the text doesn't hit the border */
+  box-sizing: border-box;
+  z-index: 10;     /* Ensures it sits cleanly on top of backgrounds */
+}
+
+.ribbon-vintage img {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  width: 60px;
+}
+
+.ribbon-vintage img.fedora {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  transform: rotate(-5deg); /* Playful angle */
+}
+
+.ribbon-vintage p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #8c6239;
+}
+
+.ribbon-vintage a {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #8c6239;
+}
+
+.ribbon-vintage ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #8c6239;
 }
