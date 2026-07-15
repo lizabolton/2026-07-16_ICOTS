@@ -7,7 +7,7 @@
 .reveal {
   font-family: 'EB Garamond', 'Instrument Serif', Georgia, serif;
   /* Lifted baseline text size so it remains clear in large presentation halls */
-  font-size: 50px;
+  font-size: 38px;
   color: #2b2b2b;
   background-color: #faf6ee; /* Soft, paper-like warm background */
 }
@@ -23,12 +23,13 @@
 
 /* Slide Titles */
 .reveal h2 {
-  font-size: 6rem; /* Large, bold screen titles */
+  font-size: 3rem; /* Large, bold screen titles */
+  padding-top: 1rem;
   padding-bottom: 0.4rem;
 }
 
 .reveal h3 {
-  font-size: 4rem; /* Large, bold screen titles */
+  font-size: 2rem; /* Large, bold screen titles */
   padding-bottom: 0.4rem;
 }
 
@@ -36,20 +37,20 @@
 
 /* Presentation Main Body Text Defaults */
 .reveal p, .reveal li, .reveal div.column {
-  font-size: 3.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
 /* Target only the title on the title/cover slide */
 .reveal .quarto-title-block .title {
-  font-size: 10rem !important; /* Increase or decrease this value to your liking */
+  font-size: 7rem !important; /* Increase or decrease this value to your liking */
   line-height: 1.3;
   margin-top: 0.5rem;
 }
 
 /* Target only the subtitle on the title/cover slide */
 .reveal .quarto-title-block .subtitle {
-  font-size: 6rem !important; /* Increase or decrease this value to your liking */
+  font-size: 4rem !important; /* Increase or decrease this value to your liking */
   line-height: 1.3;
   margin-top: 0.5rem;
 }
@@ -160,7 +161,7 @@
 .reveal .quarto-title-authors .author span {
   font-family: 'Instrument Serif', 'EB Garamond', serif;
   font-weight: 600;
-  font-size: 0.9rem !important; /* Fixed hierarchy for names */
+  font-size: 1.6rem !important; /* Fixed hierarchy for names */
   color: #1a1a1a;
   margin-bottom: 0.1rem;
 }
@@ -168,7 +169,16 @@
 .reveal .quarto-title-affiliation {
   font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 1.6rem !important; /* Balanced university scale text size */
+  font-size: 1rem !important; /* Balanced university scale text size */
+  color: #555555 !important;
+  line-height: 1.3;
+  margin-top: 0.05rem;
+}
+
+.reveal .quarto-title-author-name {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 1.2rem !important; /* Balanced university scale text size */
   color: #555555 !important;
   line-height: 1.3;
   margin-top: 0.05rem;
@@ -198,18 +208,18 @@
 
 .gallery-plaque .artist * {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   margin-bottom: 0.15rem;
 }
 
 .gallery-plaque .artwork-title * {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   margin-bottom: 0.25rem;
 }
 
 .gallery-plaque .meta * {
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   color: #666666;
   line-height: 1.4;
 }
@@ -220,35 +230,18 @@
 
 .reveal .column-image-bg {
   position: absolute;
-  /* Use negative values to break past the default slide padding */
-  top: -2rem;
-  right: -2rem;
-  bottom: -2rem;
-
-  /* Calculate the exact height/width accounting for the negative margins */
-  height: calc(100% + 4rem);
-  width: calc(40% + 2rem);
-
-  /* Background properties */
-  background-size: cover;
-  background-position: center center;
+  /*right: -8rem !important;*/
+  top: 1rem  !important;
+  height: 78vh !important;  /* Added !important to bypass RevealJS */
+  max-height: 95%;
+  width: 30vw !important;   /* Added !important to bypass RevealJS */
+  background-size: contain !important;
+  background-position: right bottom;
   background-repeat: no-repeat;
-
-  /* Layout container to align plaque to the bottom */
   display: flex !important;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 1.5rem !important; /* Elegant spacing around the overlay card */
   box-sizing: border-box;
-}
-
-/* Plaque container updates */
-.reveal .column-image-bg .gallery-plaque {
-  background-color: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(5px); /* Soft glassmorphism effect over the artwork */
-  max-width: 100%;
-  margin: 0;
-  border-radius: 4px; /* Slightly rounded corners for a modern aesthetic */
 }
 
 /* ==========================================================================
@@ -289,55 +282,83 @@
 }
 
 
+/* Container to keep image and caption stacked and aligned */
+.slide-media-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+/* The responsive image class that watches view height */
+.responsive-slide-img {
+  width: auto;
+  max-width: 100%;
+  /* Caps the image height relative to the screen height */
+  /* leaving roughly 25% of the screen height for the caption and footers */
+  height: 55vh;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+
 /* ==========================================================================
    Hat tip ribbon
    ========================================================================== */
 
-
 .ribbon-vintage {
-  position: absolute;
-  left: -10%;         /* Pins it directly to the far left of the slide canvas */
-  top: 5%;        /* Adjust this percentage to move it up or down vertically */
+ /* position: absolute; */
+  left: -5rem;
+  top: 0%;
   width: 40vw;
   background: #f4edd8;
   border: 2px dashed #8c6239;
-  border-left: none;
   color: #4a3b32;
-  padding: 1rem;   /* Added back slightly so the text doesn't hit the border */
+  padding: 1rem;
   box-sizing: border-box;
-  z-index: 10;     /* Ensures it sits cleanly on top of backgrounds */
+  z-index: 0;
+
+  /* Keeps the hat and the text block side-by-side */
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;      /* Keeps the hat vertically centered relative to the text block */
+  gap: 1rem;
 }
 
 .ribbon-vintage img {
   display: block;
-  margin: 0 auto 0.5rem auto;
   width: 60px;
+  height: auto;
+  flex-shrink: 0;
+  transform: rotate(-5deg);
+  margin: 0;
 }
 
-.ribbon-vintage img.fedora {
-  display: block;
-  margin: 0 auto;
-  width: 60px;
-  transform: rotate(-5deg); /* Playful angle */
+/* This targets the container holding your stacked text items */
+.ribbon-text-block {
+  display: flex;
+  flex-direction: column;   /* Stacks the links/text vertically */
+  gap: 0.1rem;             /* Spacing between each stacked line */
 }
 
-.ribbon-vintage p {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #8c6239;
+.ribbon-text-block p,
+.ribbon-text-block a {
+  margin: 0 !important;     /* Removes the default paragraph spacing pushing them apart */
+  padding: 0 !important;
+  line-height: 0.9 !important; /* Compresses the vertical text spacing tightly */
 }
 
 .ribbon-vintage a {
+  font-size: 0.5em;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 1rem;
-  color: #8c6239;
+  color: #1A433A;
+  text-decoration: none;
 }
 
-.ribbon-vintage ul {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #8c6239;
+.ribbon-vintage a:hover {
+  color: #00a86b;
+  text-decoration: underline;
 }
+

@@ -43,8 +43,6 @@ format:
   revealjs:
     theme: default
     css: custom.css
-    width: 1920
-    height: 1080
     slide-number: c/t
     hash-type: number
     controls: false
@@ -82,13 +80,14 @@ Greetings from New Zealand
 :::
 
 ::: {.meta}
-1900-1910 (with later colouring likely added), New Zealand. Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
+1900-1910 (with later colouring likely added).  
+Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
 :::
 :::
 :::
 
 
-::: {.column .column-image-bg width="40%" role="img" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="background-image: url('img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg');"}
+::: {.column .column-image-bg role="img" height="60%" alt='A vintage sepia-toned postcard collage titled "Greetings from New Zealand." The central image features a stylized outline map of New Zealand with the text "Greetings from New Zealand" embossed diagonally across it. The collage includes multiple photographic portraits of Māori women in traditional attire, hand-colored floral accents featuring pink roses, white daisies, and purple orchids, an early New Zealand flag variation with a Union Jack base, and a shield emblem labeled "The Southern Cross."' style="background-image: url('img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg');"}
 
 
 :::
@@ -230,15 +229,22 @@ Musée du Louvre, Paris
 
 ---
 
-## 
+## Will this talk be useful to you?
+
 
 :::: {.columns}
 ::: {.column .left-column-container width="60%"}
-::: {.column-margin .ribbon-vintage}
-![](img/hattip.gif){.fedora}
 
-[Nicky Wakim on trauma-informed pedagogy]()
+What if you don't have a lot of ELL students at your institution? Should you sneak out the back of the auditorium right now and see if you can catch a different talk?
 
+::: {.ribbon-vintage}
+![](img/hattip.gif)
+
+::: {.ribbon-text-block}
+
+[Nicky Wakim on trauma-informed pedagogy](https://virtual.oxfordabstracts.com/event/73693/submission/191)  
+[Paul Fijn on designing for accessibility](https://virtual.oxfordabstracts.com/event/73693/submission/267)
+:::
 :::
 
 ::: {.gallery-plaque}
@@ -340,6 +346,6 @@ Last, but certainly not least, thank **YOU** for being here.
 
 ---
 
-### Icons
+## Icons
 
 - Fedora by parkjisun from <a href="https://thenounproject.com/browse/icons/term/fedora/" target="_blank" title="Fedora Icons">Noun Project</a> (CC BY 3.0)
