@@ -41,6 +41,11 @@
   line-height: 1.5;
 }
 
+.reveal .citation, .reveal .citation * {
+  font-size: 1rem;
+  line-height: 0.2;
+}
+
 /* Target only the title on the title/cover slide */
 .reveal .quarto-title-block .title {
   font-size: 7rem !important; /* Increase or decrease this value to your liking */
@@ -104,7 +109,7 @@
   padding: 0.5rem;
   position: absolute;
   z-index: 100;
-  bottom: 125%;
+  top: 125%;
   left: 50%;
   margin-left: -6rem;
   opacity: 0;
@@ -120,6 +125,11 @@
   opacity: 1;
 }
 
+.tooltip .tooltiptext.tooltip-lg {
+  width: 35rem;        /* Greatly increases the container container width */
+  margin-left: -17.5rem; /* Keeps it centered (exactly half of the width) */
+  background-color: #FFFFFF;
+}
 /* ==========================================================================
    Images & Responsive Layout Adjustments
    ========================================================================== */
@@ -343,14 +353,15 @@
 }
 
 .ribbon-text-block p,
+.ribbon-text-block li,
 .ribbon-text-block a {
+  font-size: 0.75em;
   margin: 0 !important;     /* Removes the default paragraph spacing pushing them apart */
   padding: 0 !important;
   line-height: 0.9 !important; /* Compresses the vertical text spacing tightly */
 }
 
 .ribbon-vintage a {
-  font-size: 0.5em;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: #1A433A;
@@ -362,3 +373,163 @@
   text-decoration: underline;
 }
 
+/* This media query activates only on mobile screens/portrait mode */
+@media screen and (max-width: 600px) {
+
+  /* 1. Reset the background image box so it acts like a normal element */
+  .reveal .column-image-bg {
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    /*height: 30vh !important; /* Limits image height on phone screens */
+    margin: 1.5rem 0 !important;
+    background-position: center center !important;
+  }
+
+  /* 2. Reset the vintage ribbon so it stacks nicely rather than floating */
+  .ribbon-vintage {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    border-left: 2px dashed #8c6239 !important; /* Restore the full border box */
+    margin-top: 1rem !important;
+  }
+
+  /* 3. Handle the columns layout so it breaks into a single vertical stack */
+  .reveal .columns {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .reveal .column {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* 4. Shrink the massive footer text so it doesn't swallow the whole screen */
+  .reveal .footer *,
+  .reveal .slide-number {
+    font-size: 0.35em !important;
+    line-height: 1.2 !important;
+    padding-bottom: 5px !important;
+  }
+
+  /* Reset the gallery plaque for mobile portrait views */
+  .reveal .left-column-container .gallery-plaque {
+    position: relative !important;
+    bottom: 0 !important;   /* Clears desktop bottom anchoring */
+    right: 0 !important;    /* Clears desktop right anchoring */
+    margin: 1.5rem 0 0 0 !important; /* Pushes it down slightly below the text block */
+    max-width: 100% !important; /* Lets it span the full width of the phone screen */
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Optional: Ensure its parent container lets it behave natively */
+  .reveal .left-column-container {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .gallery-plaque .artist * {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.gallery-plaque .artwork-title * {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.gallery-plaque .meta * {
+  font-size: 1.5rem;
+  color: #666666;
+  line-height: 1.4;
+}
+}
+
+/* ==========================================================================
+   Print Overrides (Forces Mobile Layout on Print/PDF Export)
+   ========================================================================== */
+@media print {
+  /* 1. Tricking Reveal.js structure into shrinking to trigger mobile mechanics */
+  .reveal {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+
+  .reveal .slides {
+    width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  /* 2. Re-triggering the column layout stack rules written above */
+  .reveal .columns {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .reveal .column {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* 3. Re-triggering elements structural handling to stack cleanly */
+  .reveal .column-image-bg {
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    /*height: 30vh !important; /* Limits image height on phone screens */
+    margin: 1.5rem 0 !important;
+  }
+
+  .ribbon-vintage {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    border-left: 2px dashed #8c6239 !important;
+    margin-top: 1rem !important;
+  }
+
+  .reveal .left-column-container {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .reveal .left-column-container .gallery-plaque {
+    position: relative !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    margin: 1.5rem 0 0 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* 4. Ensuring typography and elements match the larger mobile look */
+  .gallery-plaque .artist *,
+  .gallery-plaque .artwork-title *,
+  .gallery-plaque .meta * {
+    font-size: 1.5rem !important;
+  }
+
+  .reveal .footer *,
+  .reveal .slide-number {
+    font-size: 0.35em !important;
+    line-height: 1.2 !important;
+  }
+}
+
+.reveal .small-text * {
+  font-size: 0.9rem; /* Or 12px, 80%, etc. */
+  line-height: 1.3;
+}

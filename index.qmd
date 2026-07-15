@@ -64,11 +64,14 @@ link-citations: true
 <span class="tooltip">Talofa lava<span class="tooltiptext">Samoan</span></span>, 
 <span class="tooltip">Malo e lelei<span class="tooltiptext">Tongan</span></span>, 
 <span class="tooltip">Kia orana<span class="tooltiptext">Cook Islands Māori</span></span>, 
-<span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, 
 <span class="tooltip">Mālo ni<span class="tooltiptext">Tokelauan</span></span>, 
+<span class="tooltip">Fakaalofa lahi atu<span class="tooltiptext">Niuean</span></span>, 
 <span class="tooltip">Ni sa bula<span class="tooltiptext">Fijian</span></span>, 
 <span class="tooltip">Fakatalofa<span class="tooltiptext">Tuvaluan</span></span>, 
-<span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>.
+<span class="tooltip">Kia ora<span class="tooltiptext">te reo Māori</span></span>. 
+
+![](img/qr_code.png){fig-align="center" width=55%  alt="QR code with ICOTS logo embedded"}
+
 
 ::: {.gallery-plaque}
 ::: {.artist}
@@ -80,8 +83,7 @@ Greetings from New Zealand
 :::
 
 ::: {.meta}
-1900-1910 (with later colouring likely added).  
-Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
+1900-1910 (with later colouring likely added). Gift of Patricia M. Mitchell, 1989. Te Papa (PS.000812)
 :::
 :::
 :::
@@ -118,15 +120,13 @@ We pay our respects to their Elders past, present, and emerging, recognizing the
 
 ::: {.meta}
 Synthetic polymer paint on canvas  
-Queensland Art Gallery | Gallery of Modern Art   
-© Mike Tippo 
-[Collection link](https://collection.qagoma.qld.gov.au/objects/1608)
+Queensland Art Gallery | Gallery of Modern Art © Mike Tippo [(Collection link)](https://collection.qagoma.qld.gov.au/objects/1608)
 :::
 :::
 
 :::
 
-::: {.column .column-image-bg width="40%" role="img" alt='The artwork is made with synthetic polymer paint that creates a dense, detailed composition rooted in Indigenous Australian visual storytelling. It combines traditional dotting techniques, repeating geometric patterns, and stylized symbolic figures or tracks that map out concepts of law, culture, and country in rich earth tones contrasted with striking lines.' style="background-image: url('img/tippo.jpg');"}
+::: {.column .column-image-bg role="img" alt='The artwork is made with synthetic polymer paint that creates a dense, detailed composition rooted in Indigenous Australian visual storytelling. It combines traditional dotting techniques, repeating geometric patterns, and stylized symbolic figures or tracks that map out concepts of law, culture, and country in rich earth tones contrasted with striking lines.' style="background-image: url('img/tippo.jpg'); width: 40%;"}
 :::
 
 
@@ -156,14 +156,13 @@ Additional experiences at Southwest University, China, also informed this work.
 :::
 
 ::: {.meta}
-Fine art print  
-[www.emily-kewageshig.com](https://www.emily-kewageshig.com/)  
+Fine art print | [www.emily-kewageshig.com](https://www.emily-kewageshig.com/)  
 :::
 :::
 
 :::
 
-::: {.column .column-image-bg width="40%" role="img" alt='A painting featuring stylized animals of the land, air, and water. A deer stands in front of a glowing sun on a hill, flanked by a flying eagle on the left and a snow-dusted pine tree on the right. Below them, a green sea turtle and a brown fish swim in flowing blue water against a bright blue background.' style="background-image: url('img/kewageshig.jpg');"}
+::: {.column .column-image-bg role="img" alt='A painting featuring stylized animals of the land, air, and water. A deer stands in front of a glowing sun on a hill, flanked by a flying eagle on the left and a snow-dusted pine tree on the right. Below them, a green sea turtle and a brown fish swim in flowing blue water against a bright blue background.' style="background-image: url('img/kewageshig.jpg'); width: 40%;"}
 :::
 
 
@@ -188,11 +187,6 @@ I have never had my personal success, safety, or access to resources rely on my 
 :::
 
 :::{.fragment}
-Many people in this room will have first-hand experience with learning English as an additional language that I don’t.
-:::
-
-
-:::{.fragment}
 Language is not *just* a skill — it is part of **culture**, **identity**, and how we know others and make ourselves known in turn.
 :::
 
@@ -205,7 +199,7 @@ I have never had my personal success, safety, or access to resources rely on my 
 
 ::: {.gallery-plaque}
 ::: {.artist}
-**Leonardo da Vinci**
+**Leonardo da Vinci**  
 *Italy, b.1452–d.1519*
 :::
 
@@ -214,14 +208,13 @@ Portrait of an unknown woman (c. 1490–96)
 :::
 
 ::: {.meta}
-Oil on wood panel
-Musée du Louvre, Paris
+Oil on wood panel | Musée du Louvre, Paris
 :::
 :::
 
 :::
 
-::: {.column .column-image-bg width="40%" role="img" alt='A close-up oil portrait of a young woman. The subject is turned slightly to the right but directs a calm, steady gaze out toward the viewer. She has fair skin, high cheekbones, dark oval eyes, and straight dark hair slicked back over her ears, with a thin black cord across her brow holding a small red gemstone. Her ornate dress is deep red with gold and brown trim, detailed with puffed white undersleeves tied with gold ribbons. She is positioned behind a simple grey stone ledge, and the entire background is flat, solid black.' style="background-image: url('img/davinci.jpg');"}
+::: {.column .column-image-bg role="img" alt='A close-up oil portrait of a young woman. The subject is turned slightly to the right but directs a calm, steady gaze out toward the viewer. She has fair skin, high cheekbones, dark oval eyes, and straight dark hair slicked back over her ears, with a thin black cord across her brow holding a small red gemstone. Her ornate dress is deep red with gold and brown trim, detailed with puffed white undersleeves tied with gold ribbons. She is positioned behind a simple grey stone ledge, and the entire background is flat, solid black.' style="background-image: url('img/davinci.jpg'); width: 40%;"}
 :::
 
 
@@ -229,123 +222,471 @@ Musée du Louvre, Paris
 
 ---
 
-## Will this talk be useful to you?
+## Will this be useful to you?
 
 
 :::: {.columns}
+
 ::: {.column .left-column-container width="60%"}
 
-What if you don't have a lot of ELL students at your institution? Should you sneak out the back of the auditorium right now and see if you can catch a different talk?
 
+Not a lot of ELLs? Should you sneak out now?
+
+:::{.fragment}
+- Connects to: **Universal Design for Learning** & **trauma-informed pedagogy**.
+-  May pull financial levers in your institution that other lenses do not
+:::
+
+:::{.fragment}
 ::: {.ribbon-vintage}
-![](img/hattip.gif)
+![](img/hattip.gif){alt="Decorative GIF of a fedora icon tipping backwards and forwards."}
 
 ::: {.ribbon-text-block}
-
-[Nicky Wakim on trauma-informed pedagogy](https://virtual.oxfordabstracts.com/event/73693/submission/191)  
-[Paul Fijn on designing for accessibility](https://virtual.oxfordabstracts.com/event/73693/submission/267)
+- [Nicky Wakim on trauma-informed pedagogy](https://virtual.oxfordabstracts.com/event/73693/submission/191)  
+- [Paul Fijn on designing for accessibility](https://virtual.oxfordabstracts.com/event/73693/submission/267)
+:::
 :::
 :::
 
 ::: {.gallery-plaque}
 ::: {.artist}
-**Mike Tippo**  
-*Australia, QLD, b.1954*
+**Pere Borrell del Caso**  
+*Spain, b.1835–d.1910*
 :::
 
 ::: {.artwork-title}
-*The making of Queensland Aboriginal law* (1989)
+Escaping Criticism (*Huyendo de la crítica*) (1874)
 :::
 
 ::: {.meta}
-
+Oil on canvas | Collection of the Banco de España, Madrid
 :::
 :::
 
 :::
 
-::: {.column .column-image-bg width="40%" role="img" alt='' style="background-image: url('img/tippo.jpg');"}
+::: {.column .column-image-bg role="img" alt="A trompe-l'oeil painting of a wide-eyed, barefoot boy climbing forward out of a dark picture frame, gripping the edges as if stepping into the real world." style="background-image: url('img/del_caso.jpg'); width: 40%;"}
 :::
-
 
 ::::
 
 ---
 
-## ELL
-
-### Terminology, not a monolith
-
----
-
-## Is this talk worthwhile?
-
-* **The Elephant in the Room:** Reference to *We Don't Talk About Bruno*.
-* **Accessibility Angles:** While several talks consider UDL (Universal Design for Learning) and accessibility, this addresses a distinct linguistic lens.
-* **The Importance of Process:** Writing, coding, and speaking are not just to produce outputs. Our practices form our thoughts and help clarify them. While AI and technological enhancements will change *how* we approach these products, the human process will continue to matter.
-* **Scope:** What if you don't currently have ELL students in your classes?
-
----
-
-## Globalised education
-
----
-
-## Three levels of adjustment
-
----
-
-## Micro, Meso, & Macro Adjustments
-
-### Micro
-Individual, immediate interactions and terminology framing.
-
-### Meso
-Course-level structural changes, assignment scaffolding, and assessments.
-
-### Macro
-Institutional policies, systemic support, and curriculum design.
-
----
-
-## Interactive Elements & References
-
-You can hover over key terms to see inline extra information or full citations.
-
-* Here is an example of an <span class="tooltip">extra detail popup<span class="tooltiptext">This is supplementary information or a hidden note that appears seamlessly on hover!</span></span> built directly into the slide text.
-* We can also reference key literature dynamically, like this foundational text [@wickham2016].
-
----
-
-## With gratitude
+## Will this be useful to any of us?
 
 :::: {.columns}
 
-::: {.column width="60%"}
-We would like to acknowledge the many **students**, **teaching assistants**, and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners.
+::: {.column .left-column-container width="60%"}
 
-Thank you also to our **ICOTS 12 conference proceedings reviewers** — your thoughtful comments helped us improve this presentation and accompanying paper.
+* The **elephant** in the room?  <span class="tooltip">AI babel fish for all?
+  <span class="tooltiptext tooltip-lg">
+    <img src="img/babel-fish.jpg" style="width: 100%; height: auto;">
+  </span>
+</span>
 
-Thank you to all those involved with making ICOTS happen. And thanks to the crew in the AV booth at the back!
-
-Last, but certainly not least, thank **YOU** for being here.
+:::{.fragment}
+* **The importance of process:** While AI and technological enhancements will change *how* we approach products, the human process will continue to matter.
 :::
 
-::: {.column width="40%"}
-![](img/MA_I406706_TePapa_Greetings-from-New-Zealand_full.jpg){style="width: 90%;" class="presentation-image"}
+:::{.fragment}
+::: {.ribbon-vintage}
+![](img/hattip.gif){alt="Decorative GIF of a fedora icon tipping backwards and forwards."}
+
+::: {.ribbon-text-block}
+- [Nick Bussberg on sustainability examples](https://virtual.oxfordabstracts.com/event/73693/submission/55)
+
+- [Claire, Tyler, & Emily on community-engaged courses ](https://virtual.oxfordabstracts.com/event/73693/submission/42)  
+:::
+:::
+:::
+
+:::{.notes}
+Writing, coding, and speaking are not just to produce outputs.
+
+So many of the panels and talks this week have reinforced the value of what we do. In Mine's response in the What's my fitted model panel, she made a really great point about the challenges of translation with out the ability to check the quality of these translations. This was with respect to code, but the language example holds true.
+:::
+
+::: {.gallery-plaque}
+::: {.artist}
+**Max Ernst**  
+*Germany, b.1891–d.1976*
+:::
+
+::: {.artwork-title}
+The Elephant Celebes (*Celebes*) (1921)
+:::
+
+::: {.meta}
+Oil on canvas | Tate Modern, London
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg role="img" alt="A surrealist painting dominated by a large, round, dark green boiler-like structure resembling a mechanical elephant with short legs and a hose-like trunk. In the foreground stands a headless female nude torso with a raised right arm, set against a muted blue-gray sky." style="background-image: url('img/ernst.jpg'); width: 40%;"}
+:::
+
+
+::::
+
+
+
+---
+
+## Around the globe in 80 years
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
+
+- Rapid **globalisation** and student mobility over the last 80 years, particularly Asia → Western Anglophone nations. [@altbach2009trends; @marginson2016high]
+- English as the **lingua franca** of academia. [@wilkins2014english] 
+- Higher ed **marketised**, international students a critical source of revenue for institutions. [@knight2004internationalization; @oecd2025key]. 
+
+:::{.notes}
+Over the last 80 years, tertiary education has been defined by rapid globalisation and student mobility, particularly from Asia to Western Anglophone nations with post-graduation work opportunities (Altbach et al., 2009; Marginson, 2016). This has fostered the rise of English as the lingua franca of academia (Wilkins and Urbanovič, 2014). At the same time, higher education has become increasingly marketised, with international students viewed as a critical source of revenue for institutions (Knight, 2004; OECD, 2025). 
+:::
+
+::: {.gallery-plaque}
+::: {.artist}
+**Marguerite Gérard**  
+*France, b.1761–d.1837*
+:::
+
+::: {.artwork-title}
+Young Woman Consulting a Globe (*Jeune femme consultant un globe*) (c. 1790)
+:::
+
+::: {.meta}
+Oil on panel | Private Collection
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg role="img" alt='An 18th-century oil painting shows a young woman with her back mostly turned, wearing an elegant light ivory silk gown, leaning over a wooden desk to examine a large geographic globe. There is a small black-and-white dog at her feet.' style="background-image: url('img/gerard.jpg'); width: 40%;"}
+:::
+
+
+::::
+
+---
+
+## International student enrollments in universities 
+
+::::{.columns}
+
+:::{.column width="91%"}
+![](img/international students.png)
+:::
+
+::: {.column width="9%" .small-text}
+
+@australianeducation2024,  
+@australianeducation2025,  
+@hesa2024,  
+@nz_education_counts_2026_enrolment_data,   @statcan_postsecondary_2026,  
+@qs2023,   
+@australianeducation2024,   
+@uoa2024annual,   
+@uoftfacts
 :::
 
 ::::
 
 ---
 
-## References
+## International ≠ ELL
+
+**English Language Learners (ELL)**: students who speak another language more fluently than they speak English AND need support to engage confidently in the standard English dialect of their educational environment.
+
+:::{.fragment}
+> A note on terms: ELL is used by the Ministry of Education in Aotearoa New Zealand [@franken2023new, @moe2024]. Other educational organisations advocate for **"multilingual learners"** [@ergo2022]. In Australia the term **"EAL/D"** includes Aboriginal and Torres Strait Islander students who may speak Aboriginal English and Kriol [@nesa_eald_support_2026].
+:::
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
+
+:::{.fragment}
+::: {.ribbon-vintage}
+![](img/hattip.gif){alt="Decorative GIF of a fedora icon tipping backwards and forwards."}
+
+::: {.ribbon-text-block}
+- [Michael Moon on teaching ethics at UofT — 84% of students did not consider English to be their 'first' language](https://virtual.oxfordabstracts.com/event/73693/submission/192)
+
+:::
+:::
+:::
+
+:::
+
+::: {.column width="40%"}
+:::
+
+
+::::
+
+---
+
+## International students from China
+
+::::{.columns}
+
+:::{.column width="91%"}
+![](img/china_perc.png)
+:::
+
+::: {.column width="9%" .small-text}
+Note: EU students not counted as international for UK calculation
+
+@australianeducation2024,  
+@educationcounts2024,  
+@hesa2024,  
+@statcan_postsecondary_2026,  
+@uoa2024annual,  
+@uoftfacts
+:::
+
+::::
+
+:::{.notes}
+This specific student pipeline brings distinct educational and cultural backgrounds that heavily influence classroom dynamics in Anglosphere universities. Historically, English education in China has been driven by high-stakes testing mechanisms such as the Gaokao and the College English Test (CET). This exam-oriented system creates a focus on rote memorisation, grammatical accuracy, and reading comprehension over communicative fluency (Cheng and Hamid, 2025; Han, 2021; Snow et al., 2017). As a result, many Chinese students arrive at Anglosphere universities having passed qualifying examinations of their technical language abilities, yet struggle with the demands of academic participation. Compounding this challenge, recent data indicates an overall decline in China’s general English proficiency ratings (Education First, 2025), potentially due to pandemic-related learning disruptions (Zou, 2023), strict domestic restrictions on private tutoring (Yao, 2023), and shifting cultural perceptions regarding the necessity of English language acquisition (Ni, 2023).
+In our own teaching and through discussions with colleagues, we are aware of the challenges many university educators are facing in supporting their students in courses with a high number of ELLs. These unique challenges have been documented in the literature (e.g., Lin & Morrison, 2021) and across teaching levels, science, technology, and mathematics (STEM) teachers in Anglosphere countries face the “responsibility of having students who do not speak English proficiently in their content area classrooms” (Hoffman & Zollman, 2016). In statistics education, this challenge is multi-layered, as learning the discipline fundamentally requires acquiring a specialised language skillset that bridges mathematical notation, general academic prose, and domain-specific vocabulary (Dunn et al., 2016).
+:::
+
+
+# Three levels of strategies/ideas
+
+---
+
+## Small: teaching practices
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
+
+- **The power of pausing**: Pausing 🧘‍♀️ > going slow 🐢
+- **Speaking AND writing instructions and answers**
+- **Be explicits with navigating shared languages and translanguaging**
+
+::: {.gallery-plaque}
+::: {.artist}
+**Traditionally attributed to Zhao Ji**  
+  *China, b.1082-d.1135*
+:::
+  
+::: {.artwork-title}
+*Two ducks among reeds at the water's edge* (Ming or Qing dynasty, 15th-18th century)
+:::
+
+::: {.meta}
+Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Freer
+:::
+
+:::
+
+:::
+
+:::
+
+::: {.column .column-image-bg role="img" alt='' style="background-image: url('img/ducks.jpg'); width: 40%;"}
+:::
+
+
+::::
+
+
+---
+
+## Medium: assessment design
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
+
+- **Scaffold contexts for interest and accessibility**
+
+::: {.gallery-plaque}
+::: {.artist}
+**Copy after Qiu Ying 仇英 in the 17th century**
+*China, b.1494-d.1552*
+:::
+
+::: {.artwork-title}
+*The hall of scenic beauty 有美堂圖*
+:::
+
+::: {.meta}
+Ink and color on silk | Freer Gallery of Art Collection, Gift of Charles Lang Freer
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg role="img" alt="A traditional Chinese landscape hanging scroll painting on silk, featuring towering, light-green rocky mountains on the left and a wide, wavy river on the right. Nestled among autumn-colored trees and blossoms on the lower left is a multi-story pavilion with figures looking out. In the bottom foreground, travelers with a loaded white horse walk along a path. The upper right background shows distant hazy hills, small sailboats, and a large block of Chinese calligraphic inscription with red seals. The entire scroll is framed by a decorative patterned fabric border." style="background-image: url('img/building.jpg'); width: 40%;"}
+:::
+
+
+::::
+
+---
+
+## Big: Design and institutional support
+
+:::: {.columns}
+
+::: {.column .left-column-container width="60%"}
+
+- **Communication skills workshops**
+- **Relational pedagogies**
+
+::: {.gallery-plaque}
+::: {.artist}
+**Ito Jakuchu**  
+*Japan, b.1716-d.1800*
+:::
+
+::: {.artwork-title}
+*Elephant* (179-)
+:::
+
+::: {.meta}
+Ink on paper, hanging scroll |
+:::
+:::
+
+:::
+
+::: {.column .column-image-bg  role="img" alt='A white elephant, painted from the front in a stylistic, filling the entire frame.' style="background-image: url('img/jakuchu.jpg'); width: 40%;"}
+:::
+
+
+::::
+
+
+# Examples
+
+---
+
+## Practice example: Teaching undergrad data science in China
+
+::: {.panel-tabset}
+### The challenge
+
+- Students were reluctant to raise hands or answer questions in front of the whole class.
+- They weren't all disengaged; they needed a sense of safety and the appropriate time and support to engage with the activities. 
+
+
+### The pivot
+- Modified "Think, Pair, Share"
+  - Structure timing
+  - Use anonymous writing submission tools
+  
+
+::: {.ribbon-vintage}
+![](img/hattip.gif){alt="Decorative GIF of a fedora icon tipping backwards and forwards."}
+
+::: {.ribbon-text-block}
+- [Anna Fergusson's *Write now!*](https://write-now.online/about.html)  
+:::
+:::
+
+
+### The result
+> From NO raised hands to 50%-70% of the class submitting answers
+
+
+:::
+
+
+
+---
+
+## Survey study: Large intro stats and data science course at an English-medium university
+
+::: {.panel-tabset}
+
+### Course
+- This course was intentionally designed to incorporate recommended techniques for teaching and developing students’ written communication skills, alongside the introduction of statistical concepts and computing skills [@gibbs2021building]. 
+- Low student-to-teaching assistant ratio (24:1). 
+- Significant collaboration with the university’s English Language Learning unit to support teaching assistant training and aid in the upskilling of instructors.
+
+
+### Participants
+- Four iterations of a large, first-year undergraduate introductory statistics and data science course at the University of Toronto.
+  - Delivery: online between September 2020 and April 2022. 
+- ELLs accounted for 76% to 83% of enrolments over the study period. 
+- n=1,697 students participated in a pre- and post- survey.
+
+### Writing
+- The course design integrated frequent, low-stakes writing practice through weekly writing tasks and online discussion boards, culminating in a scaffolded group project that included a proposal, final report, and peer review. 
+- Data were collected using pre- and post-course surveys in which students self-assessed their professional writing proficiency and identified the course components most beneficial to their development
+
+### Findings
+- Improvements for all: The proportion of students rating their proficiency as Good or higher rose from 63% at the start of the semester to 78% by the end.
+- ELL gains: Of ELLs who began the course rating themselves as having Poor or Adequate proficiency (n = 572), 57% rated themselves as Good or above by the end of the course.
+- Effective components: Weekly writing tasks, online discussion boards, and the final project were rated as most beneficial for developing their writing skills. 
+
+### Limitations
+- We cannot assess the extent to which cross-cultural differences in survey and self-rating behaviours were present and/or evolved as students spent more time acclimatising to the institution. 
+- In future work, variable response styles may be important to consider [@dolnicar2007cross], potentially alongside links to assessment-based evaluation.
+
+:::
+
+---
+
+## With gratitude  💐
+
+::: {.fragment}
+The many **students**, **teaching assistants**, and **colleagues** who have contributed to our understanding and the development of our teaching practices for supporting English Language Learners.
+:::
+
+::: {.fragment}
+Funding: Waipapa Taumata Rau | University of Auckland Faculty of Science Scholarship of Teaching and Learning Grant
+:::
+
+::: {.fragment}
+Thank you also to our **ICOTS 12 conference proceedings reviewers** — your thoughtful comments helped us improve this presentation and accompanying paper.
+:::
+
+::: {.fragment}
+Thank you to all those involved with making ICOTS happen. And thanks to the lads in the AV booth at the back!
+:::
+
+::: {.fragment}
+Last, but certainly not least, thank **YOU** for being here.
+:::
+
+# Let's talk!
+
+[liza.bolton\@auckland.ac.nz](mailto:liza.bolton@auckland.ac.nz)
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/qr_code.png){fig-align="center" width=75% alt="QR code with ICOTS logo embedded"}
+:::
+
+::: {.column width="50%"}
+
+About these slides: 
+
+- All images have alt text.
+
+- You can translate these slides in your browser.
+
+- There are references on the following slides. 
+:::
+::::
+---
+
+## References {visibility="uncounted"}
 
 ::: {#refs}
 :::
 
 ---
 
-## Icons
+## Icons {visibility="uncounted"}
 
 - Fedora by parkjisun from <a href="https://thenounproject.com/browse/icons/term/fedora/" target="_blank" title="Fedora Icons">Noun Project</a> (CC BY 3.0)
