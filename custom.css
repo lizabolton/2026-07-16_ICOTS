@@ -285,7 +285,7 @@
 .reveal .column-image-bg {
   position: absolute;
   top: -2rem;
-  right: -2rem;
+  right: -8rem;
   bottom: -2rem;
   height: calc(100% + 4rem);
   width: calc(40% + 2rem);
